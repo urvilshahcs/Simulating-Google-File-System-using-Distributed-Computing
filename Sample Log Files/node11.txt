@@ -1,0 +1,91 @@
+2015-05-03 16:32:43,820 DEBUG edu.utdallas.cs6378.utilities.NodeProperties - Properties are loaded into server's context
+2015-05-03 16:32:43,834 DEBUG edu.utdallas.cs6378.init.InitServer - Node 'C4' has started!
+2015-05-03 16:32:43,920 DEBUG edu.utdallas.cs6378.client.ClientNode - Established connection to server S1
+2015-05-03 16:32:43,955 DEBUG edu.utdallas.cs6378.client.ClientNode - Established connection to server S2
+2015-05-03 16:32:44,019 DEBUG edu.utdallas.cs6378.client.ClientNode - Established connection to server S3
+2015-05-03 16:32:44,032 DEBUG edu.utdallas.cs6378.client.ClientNode - Established connection to server S4
+2015-05-03 16:32:44,046 DEBUG edu.utdallas.cs6378.client.ClientNode - Established connection to server S5
+2015-05-03 16:32:44,084 DEBUG edu.utdallas.cs6378.client.ClientNode - Established connection to server S6
+2015-05-03 16:32:44,095 DEBUG edu.utdallas.cs6378.client.ClientNode - Established connection to server S7
+2015-05-03 16:32:49,102 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Started requesting critical section!
+2015-05-03 16:32:49,407 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688769407 by client C4" in O3.txt
+2015-05-03 16:32:49,435 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received NO to write from servers 'S5'  Aborting write!
+2015-05-03 16:32:49,882 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688769882 by client C4" in O7.txt
+2015-05-03 16:32:50,229 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received NO to write from servers 'S7'  Aborting write!
+2015-05-03 16:32:50,924 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688770924 by client C4" in O7.txt
+2015-05-03 16:32:50,926 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:51,528 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688771528 by client C4" in O7.txt
+2015-05-03 16:32:51,571 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:51,875 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688771875 by client C4" in O3.txt
+2015-05-03 16:32:52,000 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:52,169 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688772169 by client C4" in O1.txt
+2015-05-03 16:32:52,328 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received NO to write from servers 'S3'  Aborting write!
+2015-05-03 16:32:52,660 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688772659 by client C4" in O3.txt
+2015-05-03 16:32:52,701 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:52,934 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688772934 by client C4" in O1.txt
+2015-05-03 16:32:53,040 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:53,238 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688773238 by client C4" in O5.txt
+2015-05-03 16:32:53,321 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:53,521 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688773521 by client C4" in O3.txt
+2015-05-03 16:32:53,747 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:53,994 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688773994 by client C4" in O6.txt
+2015-05-03 16:32:54,200 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:54,480 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688774480 by client C4" in O3.txt
+2015-05-03 16:32:54,544 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:54,727 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688774727 by client C4" in O2.txt
+2015-05-03 16:32:54,813 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:55,359 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688775359 by client C4" in O3.txt
+2015-05-03 16:32:55,444 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:55,687 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688775687 by client C4" in O6.txt
+2015-05-03 16:32:55,826 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received NO to write from servers 'S7'  Aborting write!
+2015-05-03 16:32:56,039 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688776039 by client C4" in O2.txt
+2015-05-03 16:32:56,177 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:56,353 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688776353 by client C4" in O4.txt
+2015-05-03 16:32:56,447 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:56,731 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688776731 by client C4" in O4.txt
+2015-05-03 16:32:56,790 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received NO to write from servers 'S4'  Aborting write!
+2015-05-03 16:32:57,014 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688777014 by client C4" in O1.txt
+2015-05-03 16:32:57,154 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:32:57,491 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Sending request to write "Message at timestamp: 1430688777491 by client C4" in O6.txt
+2015-05-03 16:32:57,596 DEBUG edu.utdallas.cs6378.client.ExecuteCriticalSection - Received YES from all the servers! Sending commit message
+2015-05-03 16:33:01,166 DEBUG edu.utdallas.cs6378.client.ClientNode - Shutdown message received from master
+2015-05-03 16:33:03,226 DEBUG edu.utdallas.cs6378.client.ClientNode - **************** TIMEUNIT:   10 ms **********************************
+2015-05-03 16:33:03,227 DEBUG edu.utdallas.cs6378.client.ClientNode - **************** REQUESTS:   20 from this client ***************
+2015-05-03 16:33:03,227 DEBUG edu.utdallas.cs6378.client.ClientNode - **************** MASTERSERVER: S1 ***************************
+2015-05-03 16:33:03,227 DEBUG edu.utdallas.cs6378.client.ClientNode - Request:  1, Received 4 server grants from: 'S2' 'S6' 'S1' 'S7'           and latency:   304 ms
+2015-05-03 16:33:03,228 DEBUG edu.utdallas.cs6378.client.ClientNode - Request:  2, Received 4 server grants from: 'S7' 'S2' 'S6' 'S1'           and latency:   302 ms
+2015-05-03 16:33:03,228 DEBUG edu.utdallas.cs6378.client.ClientNode - Request:  3, Received 5 server grants from: 'S7' 'S4' 'S5' 'S2' 'S6'      and latency:   533 ms
+2015-05-03 16:33:03,229 DEBUG edu.utdallas.cs6378.client.ClientNode - Request:  4, Received 4 server grants from: 'S5' 'S1' 'S6' 'S4'           and latency:   372 ms
+2015-05-03 16:33:03,229 DEBUG edu.utdallas.cs6378.client.ClientNode - Request:  5, Received 4 server grants from: 'S4' 'S7' 'S2' 'S1'           and latency:    99 ms
+2015-05-03 16:33:03,230 DEBUG edu.utdallas.cs6378.client.ClientNode - Request:  6, Received 4 server grants from: 'S4' 'S7' 'S2' 'S1'           and latency:     7 ms
+2015-05-03 16:33:03,230 DEBUG edu.utdallas.cs6378.client.ClientNode - Request:  7, Received 4 server grants from: 'S4' 'S7' 'S2' 'S1'           and latency:    43 ms
+2015-05-03 16:33:03,231 DEBUG edu.utdallas.cs6378.client.ClientNode - Request:  8, Received 3 server grants from: 'S2' 'S4' 'S1'                and latency:    11 ms
+2015-05-03 16:33:03,236 DEBUG edu.utdallas.cs6378.client.ClientNode - Request:  9, Received 4 server grants from: 'S4' 'S7' 'S6' 'S5'           and latency:    44 ms
+2015-05-03 16:33:03,237 DEBUG edu.utdallas.cs6378.client.ClientNode - Request: 10, Received 4 server grants from: 'S4' 'S5' 'S7' 'S1'           and latency:    45 ms
+2015-05-03 16:33:03,737 DEBUG edu.utdallas.cs6378.client.ClientNode - Request: 11, Received 4 server grants from: 'S4' 'S7' 'S5' 'S1'           and latency:     5 ms
+2015-05-03 16:33:03,738 DEBUG edu.utdallas.cs6378.client.ClientNode - Request: 12, Received 5 server grants from: 'S7' 'S4' 'S5' 'S2' 'S1'      and latency:    86 ms
+2015-05-03 16:33:03,738 DEBUG edu.utdallas.cs6378.client.ClientNode - Request: 13, Received 4 server grants from: 'S7' 'S1' 'S2' 'S4'           and latency:    45 ms
+2015-05-03 16:33:03,739 DEBUG edu.utdallas.cs6378.client.ClientNode - Request: 14, Received 4 server grants from: 'S2' 'S3' 'S7' 'S5'           and latency:   378 ms
+2015-05-03 16:33:03,739 DEBUG edu.utdallas.cs6378.client.ClientNode - Request: 15, Received 4 server grants from: 'S5' 'S2' 'S6' 'S1'           and latency:    45 ms
+2015-05-03 16:33:03,740 DEBUG edu.utdallas.cs6378.client.ClientNode - Request: 16, Received 3 server grants from: 'S5' 'S2' 'S1'                and latency:     8 ms
+2015-05-03 16:33:03,740 DEBUG edu.utdallas.cs6378.client.ClientNode - Request: 17, Received 4 server grants from: 'S5' 'S3' 'S1' 'S2'           and latency:    42 ms
+2015-05-03 16:33:03,741 DEBUG edu.utdallas.cs6378.client.ClientNode - Request: 18, Received 3 server grants from: 'S1' 'S5' 'S2'                and latency:     3 ms
+2015-05-03 16:33:03,746 DEBUG edu.utdallas.cs6378.client.ClientNode - Request: 19, Received 3 server grants from: 'S1' 'S2' 'S4'                and latency:    48 ms
+2015-05-03 16:33:03,747 DEBUG edu.utdallas.cs6378.client.ClientNode - Request: 20, Received 4 server grants from: 'S2' 'S4' 'S7' 'S6'           and latency:    61 ms
+2015-05-03 16:33:04,247 DEBUG edu.utdallas.cs6378.client.ClientNode - from 'S1'- Total grants received: 20 total auxiliary messages received: 2 and total write responses received: 18
+2015-05-03 16:33:04,247 DEBUG edu.utdallas.cs6378.client.ClientNode - from 'S2'- Total grants received: 20 total auxiliary messages received: 0 and total write responses received: 16
+2015-05-03 16:33:04,247 DEBUG edu.utdallas.cs6378.client.ClientNode - from 'S3'- Total grants received: 20 total auxiliary messages received: 0 and total write responses received: 22
+2015-05-03 16:33:04,248 DEBUG edu.utdallas.cs6378.client.ClientNode - from 'S4'- Total grants received: 20 total auxiliary messages received: 0 and total write responses received: 20
+2015-05-03 16:33:04,248 DEBUG edu.utdallas.cs6378.client.ClientNode - from 'S5'- Total grants received: 20 total auxiliary messages received: 0 and total write responses received: 18
+2015-05-03 16:33:04,248 DEBUG edu.utdallas.cs6378.client.ClientNode - from 'S6'- Total grants received: 20 total auxiliary messages received: 0 and total write responses received: 12
+2015-05-03 16:33:04,248 DEBUG edu.utdallas.cs6378.client.ClientNode - from 'S7'- Total grants received: 20 total auxiliary messages received: 0 and total write responses received: 14
+2015-05-03 16:33:04,767 DEBUG edu.utdallas.cs6378.client.ClientNode - Total requests sent to all servers:           140
+2015-05-03 16:33:04,768 DEBUG edu.utdallas.cs6378.client.ClientNode - Total releases sent to all servers:           140
+2015-05-03 16:33:04,768 DEBUG edu.utdallas.cs6378.client.ClientNode - Total auxiliary messages sent to all servers:   1
+2015-05-03 16:33:04,769 DEBUG edu.utdallas.cs6378.client.ClientNode - Total Requests to write:                       60
+2015-05-03 16:33:04,769 DEBUG edu.utdallas.cs6378.client.ClientNode - Total write calls:                             60
+2015-05-03 16:33:04,769 DEBUG edu.utdallas.cs6378.client.ClientNode - Total identity messages sent to all servers:    7
+2015-05-03 16:33:05,270 DEBUG edu.utdallas.cs6378.client.ClientNode - Total messages sent from this node:           408
+2015-05-03 16:33:05,270 DEBUG edu.utdallas.cs6378.client.ClientNode - Total grants that enabled CS access:           78
+2015-05-03 16:33:05,271 DEBUG edu.utdallas.cs6378.client.ClientNode - Total messages received at this node:         262
+2015-05-03 16:33:05,271 DEBUG edu.utdallas.cs6378.client.ClientNode - Client shutdown is complete!

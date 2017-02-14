@@ -1,0 +1,90 @@
+2015-05-03 16:32:21,922 DEBUG edu.utdallas.cs6378.utilities.NodeProperties - Properties are loaded into server's context
+2015-05-03 16:32:21,927 DEBUG edu.utdallas.cs6378.init.InitServer - Node 'S3' has started!
+2015-05-03 16:32:22,261 DEBUG edu.utdallas.cs6378.server.ServerNode - O3.txt
+2015-05-03 16:32:22,275 DEBUG edu.utdallas.cs6378.server.ServerNode - O2.txt
+2015-05-03 16:32:22,279 DEBUG edu.utdallas.cs6378.server.ServerNode - O1.txt
+2015-05-03 16:32:23,878 DEBUG edu.utdallas.cs6378.server.ServerNode - Server S4 got connected!
+2015-05-03 16:32:26,368 DEBUG edu.utdallas.cs6378.server.ServerNode - Server S5 got connected!
+2015-05-03 16:32:29,165 DEBUG edu.utdallas.cs6378.server.ServerNode - Server S6 got connected!
+2015-05-03 16:32:32,283 DEBUG edu.utdallas.cs6378.server.ServerNode - Server S7 got connected!
+2015-05-03 16:32:35,941 DEBUG edu.utdallas.cs6378.server.ServerNode - Client C1 got connected!
+2015-05-03 16:32:38,103 DEBUG edu.utdallas.cs6378.server.ServerNode - Client C2 got connected!
+2015-05-03 16:32:41,170 DEBUG edu.utdallas.cs6378.server.ServerNode - Client C3 got connected!
+2015-05-03 16:32:44,020 DEBUG edu.utdallas.cs6378.server.ServerNode - Client C4 got connected!
+2015-05-03 16:32:48,057 DEBUG edu.utdallas.cs6378.server.ServerNode - Client C5 got connected!
+2015-05-03 16:32:48,870 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688768419 by client C5" to O2.txt
+2015-05-03 16:32:48,995 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688768754 by client C3" to O3.txt
+2015-05-03 16:32:49,156 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688769095 by client C5" to O3.txt
+2015-05-03 16:32:49,241 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688769047 by client C1" to O2.txt
+2015-05-03 16:32:49,379 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688769277 by client C3" to O3.txt
+2015-05-03 16:32:49,428 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688769374 by client C5" to O2.txt
+2015-05-03 16:32:49,448 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688769407 by client C4" to O3.txt
+2015-05-03 16:32:49,820 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688769656 by client C3" to O3.txt
+2015-05-03 16:32:50,352 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688770184 by client C1" to O1.txt
+2015-05-03 16:32:50,453 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688770244 by client C2" to O2.txt
+2015-05-03 16:32:50,961 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688770766 by client C5" to O1.txt
+2015-05-03 16:32:51,213 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688771062 by client C3" to O2.txt
+2015-05-03 16:32:51,563 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688771397 by client C3" to O3.txt
+2015-05-03 16:32:51,826 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688771523 by client C5" to O2.txt
+2015-05-03 16:32:51,827 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688771571 by client C1" to O1.txt
+2015-05-03 16:32:51,829 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688771667 by client C3" to O3.txt
+2015-05-03 16:32:51,996 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688771909 by client C2" to O2.txt
+2015-05-03 16:32:52,071 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688771875 by client C4" to O3.txt
+2015-05-03 16:32:52,420 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688772169 by client C4" to O1.txt
+2015-05-03 16:32:52,786 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688772659 by client C4" to O3.txt
+2015-05-03 16:32:53,051 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688772934 by client C4" to O1.txt
+2015-05-03 16:32:53,258 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688773052 by client C2" to O3.txt
+2015-05-03 16:32:53,376 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688772871 by client C5" to O2.txt
+2015-05-03 16:32:53,560 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688773422 by client C2" to O1.txt
+2015-05-03 16:32:53,752 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688773521 by client C4" to O3.txt
+2015-05-03 16:32:53,787 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688773513 by client C1" to O2.txt
+2015-05-03 16:32:54,026 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688773752 by client C3" to O1.txt
+2015-05-03 16:32:54,546 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688774378 by client C2" to O2.txt
+2015-05-03 16:32:54,589 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688774480 by client C4" to O3.txt
+2015-05-03 16:32:54,859 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688774727 by client C4" to O2.txt
+2015-05-03 16:32:54,866 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688774363 by client C1" to O1.txt
+2015-05-03 16:32:54,996 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688774902 by client C3" to O1.txt
+2015-05-03 16:32:55,184 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688775102 by client C2" to O1.txt
+2015-05-03 16:32:55,188 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688774997 by client C1" to O3.txt
+2015-05-03 16:32:55,354 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688775294 by client C5" to O1.txt
+2015-05-03 16:32:55,490 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688775359 by client C4" to O3.txt
+2015-05-03 16:32:55,630 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688775545 by client C3" to O2.txt
+2015-05-03 16:32:56,057 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688775932 by client C2" to O3.txt
+2015-05-03 16:32:56,218 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688776039 by client C4" to O2.txt
+2015-05-03 16:32:56,484 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688776307 by client C5" to O2.txt
+2015-05-03 16:32:56,903 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688776711 by client C2" to O3.txt
+2015-05-03 16:32:57,109 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688776761 by client C1" to O2.txt
+2015-05-03 16:32:57,153 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688777005 by client C3" to O3.txt
+2015-05-03 16:32:57,272 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688777014 by client C4" to O1.txt
+2015-05-03 16:32:57,617 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688777469 by client C5" to O1.txt
+2015-05-03 16:32:58,003 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688777872 by client C5" to O3.txt
+2015-05-03 16:32:58,111 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688777911 by client C1" to O2.txt
+2015-05-03 16:32:58,375 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688778282 by client C5" to O1.txt
+2015-05-03 16:32:59,652 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Writing message "Message at timestamp: 1430688779444 by client C5" to O3.txt
+2015-05-03 16:32:59,891 DEBUG edu.utdallas.cs6378.server.WriteRequestProcessor - Aborting message "Message at timestamp: 1430688779521 by client C1" to O1.txt
+2015-05-03 16:33:02,089 DEBUG edu.utdallas.cs6378.server.ServerNode - Shutdown message received from master
+2015-05-03 16:33:02,329 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages to client: 'C1', Grants: 20, Requests:  0, Releases:  0, WriteResponses: 18, Auxiliary Messages:  0, Identities:  0, RequestsToWrite:  0
+2015-05-03 16:33:02,330 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages to client: 'C2', Grants: 20, Requests:  0, Releases:  0, WriteResponses: 16, Auxiliary Messages:  0, Identities:  0, RequestsToWrite:  0
+2015-05-03 16:33:02,330 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages to client: 'C3', Grants: 20, Requests:  0, Releases:  0, WriteResponses: 20, Auxiliary Messages:  0, Identities:  0, RequestsToWrite:  0
+2015-05-03 16:33:02,331 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages to client: 'C4', Grants: 20, Requests:  0, Releases:  0, WriteResponses: 22, Auxiliary Messages:  0, Identities:  0, RequestsToWrite:  0
+2015-05-03 16:33:02,331 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages to client: 'C5', Grants: 20, Requests:  0, Releases:  0, WriteResponses: 24, Auxiliary Messages:  0, Identities:  0, RequestsToWrite:  0
+2015-05-03 16:33:02,832 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages to server: 'S1', Grants:  0, Requests:  0, Releases:  0, WriteResponses:  0, Auxiliary Messages:  0, Identities:  1, RequestsToWrite:  0
+2015-05-03 16:33:02,832 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages to server: 'S2', Grants:  0, Requests:  0, Releases:  0, WriteResponses:  0, Auxiliary Messages:  0, Identities:  1, RequestsToWrite:  0
+2015-05-03 16:33:02,833 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages to server: 'S4', Grants:  0, Requests:  0, Releases:  0, WriteResponses:  0, Auxiliary Messages:  0, Identities:  0, RequestsToWrite:  0
+2015-05-03 16:33:02,833 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages to server: 'S5', Grants:  0, Requests:  0, Releases:  0, WriteResponses:  0, Auxiliary Messages:  0, Identities:  0, RequestsToWrite:  0
+2015-05-03 16:33:02,834 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages to server: 'S6', Grants:  0, Requests:  0, Releases:  0, WriteResponses:  0, Auxiliary Messages:  0, Identities:  0, RequestsToWrite:  0
+2015-05-03 16:33:02,835 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages to server: 'S7', Grants:  0, Requests:  0, Releases:  0, WriteResponses:  0, Auxiliary Messages:  0, Identities:  0, RequestsToWrite:  0
+2015-05-03 16:33:03,335 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages from client: 'C1', Requests: 20, Releases: 20, RequestsToWrite:  9, WriteCalls:  9, Auxiliary Messages:  0, Identities:  1
+2015-05-03 16:33:03,336 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages from client: 'C2', Requests: 20, Releases: 20, RequestsToWrite:  8, WriteCalls:  8, Auxiliary Messages:  0, Identities:  1
+2015-05-03 16:33:03,336 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages from client: 'C3', Requests: 20, Releases: 20, RequestsToWrite: 10, WriteCalls: 10, Auxiliary Messages:  0, Identities:  1
+2015-05-03 16:33:03,337 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages from client: 'C4', Requests: 20, Releases: 20, RequestsToWrite: 11, WriteCalls: 11, Auxiliary Messages:  0, Identities:  1
+2015-05-03 16:33:03,337 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages from client: 'C5', Requests: 20, Releases: 20, RequestsToWrite: 12, WriteCalls: 12, Auxiliary Messages:  0, Identities:  1
+2015-05-03 16:33:03,838 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages from server: 'S1', Requests:  0, Releases:  0, RequestsToWrite:  0, WriteCalls:  0, Auxiliary Messages:  2, Identities:  0
+2015-05-03 16:33:03,839 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages from server: 'S2', Requests:  0, Releases:  0, RequestsToWrite:  0, WriteCalls:  0, Auxiliary Messages:  0, Identities:  0
+2015-05-03 16:33:03,839 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages from server: 'S4', Requests:  0, Releases:  0, RequestsToWrite:  0, WriteCalls:  0, Auxiliary Messages:  0, Identities:  1
+2015-05-03 16:33:03,839 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages from server: 'S5', Requests:  0, Releases:  0, RequestsToWrite:  0, WriteCalls:  0, Auxiliary Messages:  0, Identities:  1
+2015-05-03 16:33:03,840 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages from server: 'S6', Requests:  0, Releases:  0, RequestsToWrite:  0, WriteCalls:  0, Auxiliary Messages:  0, Identities:  1
+2015-05-03 16:33:03,840 DEBUG edu.utdallas.cs6378.server.ServerNode - Messages from server: 'S7', Requests:  0, Releases:  0, RequestsToWrite:  0, WriteCalls:  0, Auxiliary Messages:  0, Identities:  1
+2015-05-03 16:33:04,340 DEBUG edu.utdallas.cs6378.server.ServerNode - Total messages received on this node:  311
+2015-05-03 16:33:04,340 DEBUG edu.utdallas.cs6378.server.ServerNode - Total messages sent on this node:      202
+2015-05-03 16:33:04,341 DEBUG edu.utdallas.cs6378.server.ServerNode - Server shutdown is complete!
