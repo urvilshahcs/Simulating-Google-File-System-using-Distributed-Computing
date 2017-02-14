@@ -1,0 +1,40 @@
+package edu.utdallas.cs6378.utilities;
+
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.regex.Pattern;
+
+import edu.utdallas.cs6378.models.RequestState;
+
+/**
+ * This class has all global constants in the node instance so that these 
+ * constants are easily accessible by different threads.
+ */
+
+public class Constants {
+	
+	public static final String YES = "yes";
+	public static final String NO = "no";
+	public static final String DONE = "done";
+	public static final String CLIENT = "client";
+	public static final String SERVER = "server";
+	public static final String BEGIN = "begin";
+	public static final String COMPLETION = "complete";
+	public static final String SHUTDOWN = "shutdown";
+	public static final String ABORT = "abort";
+	public static final String COMMIT = "commit";
+	public static final String[] CLIENTS = NodeProperties.getProperty("clients").split(Pattern.quote(","));
+	public static final String[] SERVERS = NodeProperties.getProperty("servers").split(Pattern.quote(","));
+	public static final String[] OBJECTS = NodeProperties.getProperty("objects").split(Pattern.quote(","));
+	public static final boolean[] COMPLETION_NOTIFICATIONS = new boolean[CLIENTS.length];
+	public static final int TIMEUNIT = Integer.parseInt(NodeProperties.getProperty("timeunit"));
+	public static final int NUMOFREQUESTS = Integer.parseInt(NodeProperties.getProperty("numofrequests"));
+	public static final int CRITICALSECTIONTIMEFACTOR = Integer.parseInt(NodeProperties.getProperty("criticalsectiontimefactor"));
+	public static final int UPPERBOUND = Integer.parseInt(NodeProperties.getProperty("waittimefactorupperbound"));
+	public static final int LOWERBOUND = Integer.parseInt(NodeProperties.getProperty("waittimefactorlowerbound"));
+	public static final String MYNAME = NodeProperties.getProperty("nodename");
+	public static final String MYFUNCTION = NodeProperties.getProperty("function");
+	public static final String MASTER = NodeProperties.getProperty("master");
+	public static final Float PROBABILITYOFYES = Float.parseFloat(NodeProperties.getProperty("probabilityofyes"));
+	public static final int LISTENINGPORT = Integer.parseInt(NodeProperties.getProperty("listeningport"));
+	public static final ConcurrentHashMap<Integer, RequestState> requestStates = new ConcurrentHashMap<Integer, RequestState>();
+}
